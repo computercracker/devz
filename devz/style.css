@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero h1 {
+    margin-bottom: 30px;
+}
+
+.hero-images img {
+    margin: 10px 0;
+}
+
+.service-box, .photo-box, .about-box {
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 10px 0;
+}
+
+footer h3 {
+    margin-top: 0;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.team-section {
+    background-color: #a0d468; /* Green background */
+    color: #000; /* Black text */
+}
+
+.team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.btn-primary {
+    background-color: #563d7c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #6f5499;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust this value as needed */
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
